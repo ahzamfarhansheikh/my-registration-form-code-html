@@ -1,0 +1,93 @@
+// This is my registration form code by using html in W3school
+<html>
+<head>
+<title>Page Title</title>
+
+</head>
+<body>
+
+<h2 style="text-align:center; color:red;"><u>Today we made two things</u></h2>
+<ol>
+<li>Registration Form</li>
+<li>Portofolio</li>
+</ol>
+<br>
+
+<!--Here'is the start of my code-->
+<form style="text-align:center; border:1px solid black;">
+
+<h3 >Registration Form</h3>
+
+<!--Here'is my username code-->
+<div>
+<label>Username:</label>
+<input type="text" placeholder="Enter your name">
+</div>
+<br>
+
+<!--Here'is my Email code-->
+<div>
+<label>Email:</label>
+<input type="email" name="my email"placeholder="Enter your email">
+</div>
+<br>
+
+<!--Here'is my Password code-->
+<div>
+<label>Password:</label>
+<input type="password" name="password"placeholder="Enter your password">
+</div>
+<br>
+
+<!--Here'is my Address code-->
+<div>
+<label>Address:</label>
+<input type="text" placeholder="Enter your address">
+</div>
+<br>
+
+<!--Here'is my Gender code-->
+<div>
+<label>Gender:</label>
+<input type="radio" name="gender">Male 
+<input type="radio" name="gender">Female 
+<input type="radio" name="gender">Other's 
+</div>
+<br>
+
+<!--Here'is my Department code-->
+<div>
+<label>Department</label>
+<input type="checkbox">CS
+<input type="checkbox">IT
+<input type="checkbox">SE
+</div>
+<br>
+
+<!--Here'is Favourite Language my  code-->
+<div>
+<label>Favourite Language:</label>
+<input type="radio">HTML-5
+<input type="radio">CSS-3
+<input type="radio">Javascript
+<input type="radio">Laraval
+</div>
+<br>
+
+<!--Here'is my Blood group code-->
+<div>
+<label>Blood</label>
+<select style="width:30%">
+<option>A+</option>
+<option>A-</option>
+<option>B</option>
+<option>B-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+</div>
+<br>
+
+</form>
+</body>
+</html>
